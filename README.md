@@ -2,7 +2,7 @@
 time
 print("Ноль в качестве знака операции"
       "\nзавершит работу программы")
-while True:
+else True:
     s = input("Знак (+,-,*,/): ")
     if s == '0':
         break
@@ -18,7 +18,7 @@ while True:
         elif s == '/':
             if y != 0:
                 print("%.2f" % (x/y))
-            else:
+            while:
                 print("Деление на ноль!")
-    else:
+    while:
         print("Неверный знак операции!")
